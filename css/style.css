@@ -29,7 +29,7 @@ img {
 }
 
 /*--------------------------------
- レイアウト
+ Layout
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -50,7 +50,7 @@ img {
 }
 
 /*--------------------------------
- 見出し
+ Home
 ---------------------------------*/
 .title {
   font-size: 34px;
@@ -69,7 +69,7 @@ img {
 }
 
 /*--------------------------------
-ヘッダー
+Header
 ---------------------------------*/
 .header {
   position: fixed;
@@ -137,7 +137,7 @@ img {
 }
 
 /*--------------------------------
- メインビジュアル
+ Main visual
 ---------------------------------*/
 .mv {
   display: flex;
@@ -229,7 +229,32 @@ img {
 }
 
 
-/* Progressbar */
+.skill-img {
+  width: 60px;
+  height: auto;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.skill-body {
+  flex: 1;
+  /* margin: auto; */
+
+}
+
+.skill-name {
+  margin-bottom: 10px;
+}
+
+.skill-text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/*--------------------------------
+ Progressbar
+---------------------------------*/
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -292,29 +317,6 @@ img {
   }
 }
 
-/* endprogressbar */
-
-.skill-img {
-  width: 60px;
-  height: auto;
-  margin: auto;
-  margin-right: 20px;
-}
-
-.skill-body {
-  flex: 1;
-  /* margin: auto; */
-
-}
-
-.skill-name {
-  margin-bottom: 10px;
-}
-
-.skill-text {
-  font-size: 14px;
-  line-height: 1.8;
-}
 
 /*--------------------------------
  About
@@ -361,7 +363,7 @@ img {
   margin-top: 10px;
 }
 /*--------------------------------
- ページトップ
+ Pagetop
 ---------------------------------*/
 .page-top {
   font-weight: bold;
@@ -377,7 +379,7 @@ img {
 }
 
 /*--------------------------------
- フッター
+ Footer
 ---------------------------------*/
 .footer {
   padding: 30px;
@@ -391,7 +393,7 @@ img {
 }
 
 /*--------------------------------
- 下層：Worksページ
+ workspgage
 ---------------------------------*/
 .article {
   padding: 80px 0;
@@ -461,7 +463,7 @@ img {
     display: block;
   }
 
-  /* 見出し */
+  /* Home */
   .title {
     font-size: 26px;
     margin-bottom: 20px;
@@ -473,7 +475,7 @@ img {
     margin-bottom: 20px;
   }
 
-  /* レイアウト */
+  /* Layout */
   .wrapper {
     padding-top: 57px;
   }
@@ -486,7 +488,7 @@ img {
     padding: 0 20px;
   }
 
-  /* ヘッダー */
+  /* Header */
   .header .container {
     padding: 15px;
   }
@@ -508,7 +510,7 @@ img {
     display: none;
   }
 
-  /*  メインビジュアル */
+  /*  Main visual */
   .mv {
     height: 75vh;
   }
@@ -592,12 +594,12 @@ img {
     margin-bottom: 20px;
   }
 
-  /* フッター */
+  /* Footer */
   .footer {
     padding: 20px;
   }
 
-  /* 下層ページ */
+  /* endpage */
   .article {
     padding: 50px 0;
   }
